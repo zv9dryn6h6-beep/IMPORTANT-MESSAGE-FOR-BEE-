@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Important Message For Bee 🐝</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#f8f9ff,#e8f4ff);
+    padding:20px;
+    max-width:700px;
+    margin:auto;
+    color:#333;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    margin-top:20px;
+}
+
+button{
+    background:#4f7cff;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+#result{
+    display:none;
+    margin-top:20px;
+}
+
+.loading{
+    display:none;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+.status{
+    background:#f5f8ff;
+    padding:15px;
+    border-radius:12px;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🚨 Important Message For Bee 🚨</h1>
+
+<h2>Sebelum lanjut, jawab dulu:</h2>
+
+<p><b>Apakah kamu orang keren?</b></p>
+
+<p>🔘 Ya</p>
+<p>🔘 Sangat Ya</p>
+
+<center>
+<button onclick="startScan()">MULAI SCAN</button>
+</center>
+
+<div class="loading" id="loading">
+<br>
+<p>⏳ Loading...</p>
+<p>⏳ Menganalisis level overthinking...</p>
+<p>⏳ Menghitung jumlah plan yang berantakan...</p>
+<p>⏳ Mencari alasan kenapa kamu masih secapek itu...</p>
+</div>
+
+<div id="result">
+
+<hr>
+
+<h2>HASIL ANALISIS</h2>
+
+<p>✅ Beberapa plan memang berantakan.</p>
+<p>✅ Situasi memang lagi nggak ideal.</p>
+<p>✅ Kamu berhak merasa capek.</p>
+<p>❌ Tapi kamu TIDAK boleh menyimpulkan bahwa semuanya gagal.</p>
+
+<h2>Fakta Hari Ini</h2>
+
+<p>📌 Kamu sudah berusaha.</p>
+<p>📌 Kamu sudah bertahan.</p>
+<p>📌 Kamu masih terus jalan walaupun berat.</p>
+<p>📌 Itu lebih hebat daripada yang kamu sadari.</p>
+
+<h2>💌 Pesan Spesial</h2>
+
+<div class="status">
+Kalau hari ini terasa kacau, anggap saja hidup lagi melakukan update sistem.<br><br>
+
+Kadang proses loading memang lama, kadang ada bug, kadang bikin kesel.<br><br>
+
+Tapi bukan berarti aplikasinya rusak. 😌<br><br>
+
+Jadi jangan buru-buru menyerah ya.<br><br>
+
+Karena aku masih mau lihat kamu berhasil menjalankan semua hal yang sekarang sedang kamu perjuangkan.<br><br>
+
+Dan kalau hari ini belum sesuai rencana...<br><br>
+
+<b>Yaudah.</b><br><br>
+
+<b>Kita bully semestanya besok lagi. 🤝😂</b>
+</div>
+
+<h2>🏆 Final Result</h2>
+
+<div class="status">
+🏆 Status: Tetap Keren<br>
+🏆 Status Mental: Sedang Diuji<br>
+🏆 Status Masa Depan: Masih Cerah<br>
+🏆 Status dari Aku: Semangat yaa 🤍
+</div>
+
+</div>
+
+</div>
+
+<script>
+function startScan(){
+document.getElementById("loading").style.display="block";
+
+setTimeout(function(){
+document.getElementById("result").style.display="block";
+},3000);
+}
+</script>
+
+</body>
+</html>
